@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+
+    inteiro conta
+    real consumo, valorConta
+    caracter tipoConsumidor
+
+    escreva ("Digite o número da conta, o consumo em m³ e o tipo de consumidor (R, C ou I):\n")
+    leia(conta, consumo, tipoConsumidor)
+
+    se (tipoConsumidor == 'R') {
+      valorConta = 5.00 + (0.05*consumo)
+    }
+    se (tipoConsumidor == 'C')  
+
+
+
+
+
+    fimse
+
+
+   
+  }
+}
