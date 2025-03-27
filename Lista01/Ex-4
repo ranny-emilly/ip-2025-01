@@ -1,0 +1,24 @@
+programa {
+  inclua biblioteca Matematica--> mat
+  funcao inicio() {
+    real kw, salario, reaisresidencia, rskw, desconto
+
+    escreva ("Qual o salário mínimo atual? ")
+    leia (salario)
+    escreva ("\nQuantos KW sua residência usou este mês? ")
+    leia (kw)
+
+  rskw = 0.7*salario/100
+
+  escreva ("\nO valor em reais de cada KW é de: ", mat.arredondar(rskw ,2))
+  reaisresidencia = rskw*kw
+
+  escreva ("\n O valor em reais a ser pago pelo consumidor da residência é: ", mat.arredondar(reaisresidencia ,2))
+  desconto = 0.9*reaisresidencia
+  escreva ("\n O valor com desconto aplicado é: ", mat.arredondar(desconto ,2))
+
+
+
+
+  }
+}
