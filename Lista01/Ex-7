@@ -1,0 +1,18 @@
+programa {
+    inclua biblioteca Matematica --> mat
+    
+    funcao inicio() {
+        real f, c, polegadas, mm
+        
+        escreva("Digite a temperatura em Fahrenheit: ")
+        leia(f)
+        escreva("Digite a quantidade de chuva em polegadas: ")
+        leia(polegadas)
+        
+        c = (5 * f - 160) / 9
+        mm = polegadas * 25.4
+        
+        escreva("O VALOR EM CELSIUS = ", mat.arredondar(c, 2), "\n")
+        escreva("A QUANTIDADE DE CHUVA E = ", mat.arredondar(mm, 2), "\n")
+    }
+}
