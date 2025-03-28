@@ -1,0 +1,21 @@
+programa {
+    inclua biblioteca Matematica --> mat
+    
+    funcao inicio() {
+        real raio, altura, pi, area_circulo, area_lateral, area_total, custo
+        
+        pi = 3.14159
+        
+        escreva("Digite o raio da lata (em metros): ")
+        leia(raio)
+        escreva("Digite a altura da lata (em metros): ")
+        leia(altura)
+        
+        area_circulo = pi * raio * raio
+        area_lateral = 2 * pi * raio * altura
+        area_total = 2 * area_circulo + area_lateral
+        custo = area_total * 100.00
+        
+        escreva("O VALOR DO CUSTO E = ", mat.arredondar(custo, 2), "\n")
+    }
+}
