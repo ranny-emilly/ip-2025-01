@@ -1,0 +1,18 @@
+programa {
+    inclua biblioteca Matematica --> mat
+    
+    funcao inicio() {
+        inteiro horas, horas_cheias, horas_restantes
+        real valor
+        
+        escreva("Digite a quantidade de horas utilizadas: ")
+        leia(horas)
+        
+        horas_cheias = horas / 3
+        horas_restantes = horas % 3
+        
+        valor = (horas_cheias * 10.00) + (horas_restantes * 5.00)
+        
+        escreva("O VALOR A PAGAR E = ", mat.arredondar(valor, 2), "\n")
+    }
+}
