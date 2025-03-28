@@ -1,0 +1,28 @@
+programa {
+    inclua biblioteca Matematica --> mat
+
+    funcao inicio() {
+        inteiro num_testes, i, publico
+        real perc_pop, perc_ger, perc_arq, perc_cad
+        real pop, ger, arq, cad, renda
+        
+        leia(num_testes)
+        
+        para (i = 1; i <= num_testes; i++) {
+            leia(publico)
+            leia(perc_pop)
+            leia(perc_ger)
+            leia(perc_arq)
+            leia(perc_cad)
+            
+            pop = publico * perc_pop / 100
+            ger = publico * perc_ger / 100
+            arq = publico * perc_arq / 100
+            cad = publico * perc_cad / 100
+            
+            renda = (pop * 1) + (ger * 5) + (arq * 10) + (cad * 20)
+            
+            escreva("A RENDA DO JOGO N. ", i, " E = ", mat.arredondar(renda, 2), "\n")
+        }
+    }
+}
