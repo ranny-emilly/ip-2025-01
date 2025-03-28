@@ -1,0 +1,16 @@
+programa {
+    funcao inicio() {
+        inteiro horas, minutos, segundos, total_segundos
+        
+        escreva("Digite as horas: ")
+        leia(horas)
+        escreva("Digite os minutos: ")
+        leia(minutos)
+        escreva("Digite os segundos: ")
+        leia(segundos)
+        
+        total_segundos = (horas * 3600) + (minutos * 60) + segundos
+        
+        escreva("O TEMPO EM SEGUNDOS E = ", total_segundos, "\n")
+    }
+}
