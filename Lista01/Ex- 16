@@ -1,0 +1,18 @@
+programa {
+    inclua biblioteca Matematica --> mat
+    
+    funcao inicio() {
+        real salario, reajuste
+        
+        escreva("Digite o salário do funcionário: ")
+        leia(salario)
+        
+        se (salario <= 300.00) {
+            reajuste = salario * 1.50
+        } senao {
+            reajuste = salario * 1.30
+        }
+        
+        escreva("SALARIO COM REAJUSTE = ", mat.arredondar(reajuste, 2), "\n")
+    }
+}
