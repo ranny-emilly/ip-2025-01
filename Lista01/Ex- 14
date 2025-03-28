@@ -1,0 +1,16 @@
+programa {
+    inclua biblioteca Matematica --> mat
+    
+    funcao inicio() {
+        real altura, aresta, area_base, volume, raiz_de_3
+        
+        escreva("Digite a altura e a aresta (separados por espaço): ")
+        leia(altura, aresta)
+        
+        raiz_de_3 = mat.raiz(3, 2)  // Calcula √3
+        area_base = (3 * aresta * aresta * raiz_de_3) / 2
+        volume = (area_base * altura) / 3
+        
+        escreva("O VOLUME DA PIRAMIDE E = ", mat.arredondar(volume, 2), " METROS CUBICOS\n")
+    }
+}
