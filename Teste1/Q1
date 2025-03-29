@@ -1,0 +1,22 @@
+package main
+import "fmt"
+
+func main() {
+     n := 0
+    
+    
+  fmt.Println("Escreva um número")
+  fmt.Scan ("%v", &n)
+ 
+fmt.Scanf("%v", &n)
+  if n == 0{
+      fmt.Println("Número nulo")
+  }
+  if n > 0{
+      fmt.Println("Número positivo")
+  }
+  if n < 0{
+      fmt.Println("Número negativo")5
+      
+  }
+}
