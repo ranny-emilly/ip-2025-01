@@ -1,0 +1,28 @@
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	var ntestes, ptf int
+	var pp, pg, pa, pc, rt float64
+
+	fmt.Println("Informe o número de testes")
+	fmt.Scan(&ntestes)
+
+	for i := 1; i <= ntestes; i++ {
+		fmt.Scan(&ptf, &pp, &pg, &pa, &pc)
+
+		pp = float64(ptf) * pp / 100
+		pg = float64(ptf) * pg / 100
+		pa = float64(ptf) * pa / 100
+		pc = float64(ptf) * pc / 100
+
+		rt = (pp * 1) + (pg * 5) + (pa * 10) + (pc * 20)
+		rt = math.Round(rt*100) / 100 // Arredondando para 2 casas decimais
+
+		fmt.Printf("A RENDA DO JOGO N. %d E = %.2f\n", i, rt)
+	}
+}
