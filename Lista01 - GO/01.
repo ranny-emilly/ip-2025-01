@@ -9,7 +9,7 @@ func main() {
 	fmt.Scanf("%f %f %f", &m1, &m2, &m3)
 
 	mg = (m1 + m2 + m3) / 3
-	fmt.Printf("MEDIA= %.2f\n", mg)
+	fmt.Printf("MEDIA = %.2f\n", mg)
 
 	if mg >= 6.00 {
 		fmt.Println("APROVADO\n")
