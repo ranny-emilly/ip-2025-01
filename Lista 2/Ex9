@@ -1,0 +1,28 @@
+package main
+
+import "fmt"
+
+func main() {
+    
+var compra, lucro, venda float64
+
+fmt.Println ("Escreva o valor da compra")
+fmt.Scan(&compra)
+
+if (compra <10.00){
+    lucro = compra * 0.7
+    venda = lucro + compra 
+    fmt.Println("O valor do lucro é:", lucro, "e da venda é:", venda)
+} else if (10.00<=compra && compra<30.00){
+    lucro = 0.5 * compra
+    venda = lucro + compra 
+   fmt.Println("O valor do lucro é:", lucro, "e da venda é:", venda)
+} else if (30.00<= compra && compra <50.00){
+    lucro = compra * 0.4
+    venda = lucro + compra 
+   fmt.Println("O valor do lucro é:", lucro, "e da venda é:", venda)
+}else if (compra>=50.00){
+ lucro = 0.3 * compra
+ venda = lucro + compra 
+   fmt.Println("O valor do lucro é:", lucro, "e da venda é:", venda)
+}
