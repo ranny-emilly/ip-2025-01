@@ -1,0 +1,21 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var a, b, c, d, determinante float64
+
+	// Leitura dos quatro elementos da matriz
+	fmt.Scan(&a)
+	fmt.Scan(&b)
+	fmt.Scan(&c)
+	fmt.Scan(&d)
+
+	// Cálculo do determinante
+	determinante = (a * d) - (b * c)
+
+	// Impressão com até duas casas decimais
+	fmt.Printf("O VALOR DO DETERMINANTE E = %.2f\n", determinante)
+}
