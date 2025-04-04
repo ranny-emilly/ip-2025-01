@@ -1,0 +1,22 @@
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	var h, a float64
+
+	// Leitura da altura e da aresta
+	fmt.Scan(&h, &a)
+
+	// Cálculo da área da base (hexágono regular)
+	ab := (3 * a * a * math.Sqrt(3)) / 2
+
+	// Cálculo do volume da pirâmide
+	v := (1.0 / 3.0) * ab * h
+
+	// Impressão do volume com 2 casas decimais
+	fmt.Printf("O VOLUME DA PIRAMIDE E =%.2f METROS CUBICOS\n", v)
+}
