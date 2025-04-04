@@ -1,0 +1,21 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var f, p, c, mm float64
+
+	// Leitura dos dois valores (Fahrenheit e polegadas)
+	fmt.Scan(&f)
+	fmt.Scan(&p)
+
+	// Conversões
+	c = (5 * (f - 32)) / 9
+	mm = p * 25.4
+
+	// Impressão com duas casas decimais
+	fmt.Printf("O VALOR EM CELSIUS=%.2f\n", c)
+	fmt.Printf("A QUANTIDADE DE CHUVA =%.2f\n", mm)
+}
