@@ -1,0 +1,24 @@
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	var salario, kw float64
+
+	fmt.Println("Digite o valor do salário mínimo")
+	fmt.Scan(&salario)
+	fmt.Println("Quantos KW sua residência usou este mês?")
+	fmt.Scan(&kw)
+
+	rskw := 0.7 * salario / 100
+
+	fmt.Println("\nO valor em reais de cada KW é de:", math.Round(rskw*100)/100)
+	reaisresidencia := rskw * kw
+
+	fmt.Println("\nO valor em reais a ser pago pelo consumidor da residência é:", math.Round(reaisresidencia*100)/100)
+	desconto := 0.9 * reaisresidencia
+	fmt.Println("\nO valor com desconto aplicado é:", math.Round(desconto*100)/100)
+}
