@@ -1,0 +1,20 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var a, b, c, delta float64
+
+	// Leitura dos coeficientes A, B e C
+	fmt.Scan(&a)
+	fmt.Scan(&b)
+	fmt.Scan(&c)
+
+	// Cálculo de delta
+	delta = (b * b) - (4 * a * c)
+
+	// Impressão com duas casas decimais
+	fmt.Printf("O VALOR DE DELTA E = %.2f\n", delta)
+}
