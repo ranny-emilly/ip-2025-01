@@ -1,0 +1,41 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var contaentrada int64
+	var conta, consumo float64
+	var tipocons string
+
+	fmt.Scan(&contaentrada, &consumo, &tipocons)
+
+	if tipocons == "r" || tipocons == "R" {
+		conta = 5.00 + (0.05 * consumo)
+
+	} else if tipocons == "C" || tipocons == "c" {
+		if consumo > 80.00 {
+			conta = 500.00 + (0.25 * (consumo - 80.00))
+
+		} else if consumo <= 80.00 {
+			conta = 500
+
+		}
+
+	} else if tipocons == "I" || tipocons == "i" {
+
+		if consumo > 100 {
+			conta = 800 + (0.04 * (consumo - 100.00))
+
+		} else if consumo <= 100 {
+			conta = 800
+		}
+	} else {
+		fmt.Println("Digito inválido")
+		return
+	}
+
+	fmt.Printf("CONTA = %d\n", contaentrada)
+	fmt.Printf("VALOR DA CONTA = %.2f\n", conta)
+}
