@@ -1,0 +1,24 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var r, a, ac, al, at, custo float64
+	const pi = 3.14159
+	const precoM2 = 100.0
+
+	// Leitura do raio e da altura
+	fmt.Scan(&r)
+	fmt.Scan(&a)
+
+	// Cálculos
+	ac = pi * r * r
+	al = 2 * pi * r * a
+	at = 2*ac + al
+	custo = at * precoM2
+
+	// Impressão com uma casa decimal (como no exemplo)
+	fmt.Printf("O VALOR DO CUSTO É = %.2f\n", custo)
+}
