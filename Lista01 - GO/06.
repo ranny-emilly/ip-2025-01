@@ -1,0 +1,25 @@
+package main
+import "fmt"
+
+func main (){
+
+var graus float64
+var n int
+
+//inserir o número de temperaturas a serem lidas
+fmt.Scanf("%d", &n)
+//
+n := 0; for  i <n; i++ {
+	fmt.Scanf("&f", &graus)
+} 
+
+if n <= 0{
+	fmt.Println("Número inválido, digite novamente")
+}
+
+
+
+
+
+
+}
