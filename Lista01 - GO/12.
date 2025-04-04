@@ -1,0 +1,22 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var horas, total int
+	var valor float64
+
+	// Leitura da quantidade de horas
+	fmt.Scan(&horas)
+
+	// Cálculo do valor a pagar
+	total = horas / 3  // Número de blocos de 3 horas
+	resto := horas % 3 // Horas restantes abaixo de 3
+
+	valor = float64(total*10 + resto*5)
+
+	// Impressão do valor com 2 casas decimais
+	fmt.Printf("O VALOR A PAGAR E = %.2f\n", valor)
+}
