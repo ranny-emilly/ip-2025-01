@@ -9,7 +9,7 @@ func main() {
     
   fmt.Scan(&X, &Y, &Z)
    
-   if X + Y > Z || X + Z > Y || Y + Z > C {
+   if X + Y > Z || X + Z > Y || Y + Z > Z {
        fmt.Printl("Nao forma triangulo")
     return
    }
