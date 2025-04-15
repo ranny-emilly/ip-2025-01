@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	var b, e int
+	fmt.Scan(&b, &e)
+
+	result := 1
+
+	for i := 0; i < e; i++ {
+		result *= b
+	}
+
+	fmt.Println(result)
+}
