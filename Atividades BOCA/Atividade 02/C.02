@@ -1,0 +1,31 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var l, r, i int
+
+	fmt.Scan(&l, &r)
+	quant := 0
+	soma := 0
+
+	for i = l; i <= r; i++ {
+
+		if i%2 == 0 {
+
+			soma += i
+			quant++
+		}
+	}
+
+	fmt.Println(soma)
+
+	if quant > 0 {
+		fmt.Println(soma / quant)
+	} else {
+		fmt.Println(0)
+
+	}
+
+}
