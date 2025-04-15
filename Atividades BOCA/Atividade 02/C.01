@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var n int
+	fmt.Scanf("%d", &n)
+
+	soma := 0
+	i := 0
+
+	for i < n {
+		i++
+		fmt.Printf("%d ", i)
+
+		soma += i
+	}
+
+	fmt.Printf("%d\n", soma)
+
+}
