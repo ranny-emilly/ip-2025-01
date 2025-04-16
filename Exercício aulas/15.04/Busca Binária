@@ -1,0 +1,23 @@
+package main
+
+import "fmt"
+
+func main (){
+
+var e, d int
+
+n := 0
+e = 0
+d = n - 1
+
+for e <= d {
+	m := (e+d)/2 {
+if l[m] == 
+
+	}
+
+
+}
+
+
+}
