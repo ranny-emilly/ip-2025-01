@@ -1,0 +1,51 @@
+package main
+
+import "fmt"
+
+func main() {
+	var num [10]int         
+	var resultante1 []int   
+	var num2 [5]int        
+	var resultante2 []int  
+
+	
+	for i := 0; i < 10; i++ {
+		fmt.Scanf("%d", &num[i])
+	}
+
+
+	for i := 0; i < 5; i++ {
+		fmt.Scanf("%d", &num2[i])
+	}
+
+	for _, v := range num {
+		if v%2 == 0 { 
+			soma := v
+			
+			for _, e := range num2 {
+				soma += e
+			}
+		
+			resultante1 = append(resultante1, soma)
+		}
+	}
+
+
+	for _, k := range num {
+		if k%2 != 0 { 
+			soma2 := k
+		
+			for _, e := range num2 {
+				soma2 += e
+			}
+	
+			resultante2 = append(resultante2, soma2)
+		}
+	}
+
+
+	fmt.Println("Primeiro vetor:", resultante1)
+	fmt.Println("Segundo vetor:", resultante2)
+}
+
+	
