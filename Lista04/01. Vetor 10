@@ -1,1 +1,27 @@
+package main
+
+import "fmt"
+
+func main() {
+	var num [10]int
+	var cont int
+
+	
+	for i := 0; i < 10; i++ {
+		fmt.Scanf("%d", &num[i])
+	}
+
+	for i, k := range num {
+		if k > 50 {
+			fmt.Printf("Número %d na posição %d\n", k, i)
+			cont++
+		}
+	}
+
+
+	if cont == 0 {
+		fmt.Println("Não existe nenhum número nessa condição.")
+	}
+}
+
 
