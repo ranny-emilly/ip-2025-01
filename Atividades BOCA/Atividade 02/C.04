@@ -1,0 +1,31 @@
+package main
+
+import "fmt"
+
+func main() {
+    for {
+        var n int
+        fmt.Scan(&n)
+
+        
+        if n <= 0 {
+            break
+        }
+
+      
+        tf := false
+        for i := 1; i*i <= n; i++ {
+            if i*i == n {
+                tf = true
+                break
+            }
+        }
+
+    
+        if tf {
+            fmt.Printf("%d eh quadrado perfeito\n", n)
+        } else {
+            fmt.Printf("%d nao eh quadrado perfeito\n", n)
+        }
+    }
+}
