@@ -133,3 +133,17 @@ footer {
         padding: 12px 24px;
     }
 }
+
+.imagem {
+    width: 45%; /* Define o tamanho das imagens para 45% da largura do contêiner */
+    margin: 1%; /* Espaçamento entre as imagens */
+    display: inline-block; /* Faz com que as imagens fiquem lado a lado */
+    vertical-align: top; /* Alinha as imagens na parte superior */
+}
+
+footer {
+    text-align: center; /* Centraliza o conteúdo do footer */
+    margin-top: 20px; /* Adiciona uma margem no topo do footer */
+}
+
+
