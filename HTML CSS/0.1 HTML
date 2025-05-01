@@ -39,8 +39,9 @@
       Inteligência Artificial: De Ultron a Visão: A IA do futuro pode ser tanto uma ameaça quanto uma grande aliada, como vemos com Ultron e Visão. Vamos analisar os avanços atuais em IA e como eles podem transformar nossas vidas, para o bem ou para o mal.</footer>
     <a href="https://www.google.com">Clique aqui para ir para o site do Projeto</a>
 
-    <img src="https://lojadosherois.com.br/cdn/shop/files/IMG_20230716_172916_800x.jpg?v=1740147107" alt="Imagem de fundo">
-    
+    <img class="imagem" src="https://lojadosherois.com.br/cdn/shop/files/IMG_20230716_172916_800x.jpg?v=1740147107" alt="Imagem de fundo">
+<img class="imagem" src="https://www.mensjournal.com/.image/t_share/MjEzMzAyMDk5MjU2MDI2OTcz/taylor-swift-kylie-kelce-comments.jpg" alt="Imagem de fundo">
+
     <footer>
       <h2>Entre em Contato</h2>
       <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
@@ -66,4 +67,3 @@
 
 </body>
 </html>
-
