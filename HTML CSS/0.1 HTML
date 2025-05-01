@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emilly</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Emilly Ranny</h1>
+    <h2><a href="https://www.google.com" target="_blank">Sobre</a></h2>
+    <h2><a href="https://www.google.com" target="_blank">Projetos</a></h2>
+    <h2><a href="https://www.google.com" target="_blank">Contato</a></h2>
+
+    <p>Me chamo Emilly, tenho 19 anos, atualmente sou bolsista em um projeto da Universidade Federal de Goiás. Gosto de ciência, tecnologia, Marvel e jogos digitais, e faço faculdade de Engenharia de Software.</p>
+    
+    <img src="https://i.pinimg.com/736x/e9/9d/12/e99d12cea5d02c8fbf0fd87db936a137.jpg" alt="Imagem de fundo">
+    
+    <h2>Projeto Integrador - ES</h2>
+    <p>O projeto consiste em um trabalho em grupo realizado durante o primeiro período do curso de Engenharia de Software da UFG.</p>
+    <p>Nele desenvolvemos um sistema capaz de integrar dados dos pacientes de saúde, sendo capaz de operar com outros softwares, pois foi projetado para ser integrado.</p>
+    <a href="https://www.google.com">Clique aqui para ir para o site do Projeto</a>
+
+
+
+    <h2>Projeto: "Marvel e o Futuro da Tecnologia: O Que Podemos Aprender com os Super-Heróis</h2>
+    <p>Neste projeto, vou explorar como a ficção científica do Universo Marvel pode nos ensinar sobre as possibilidades reais de inovação tecnológica. A ideia é conectar o que vemos nos filmes com as tecnologias e teorias que estão moldando o futuro da ciência.</p>
+    <p>Homem de Ferro e Exoesqueletos: O traje de Tony Stark é um exemplo de como a inteligência artificial, nanotecnologia e exoesqueletos podem, um dia, nos dar habilidades sobre-humanas. Vamos ver como as inovações de hoje, como robôs e IA, podem chegar lá. </footer>
+      
+      <footer>
+        Viagem no Tempo com Doutor Estranho: A física quântica e as teorias sobre o multiverso podem ser a chave para entender como algo parecido com as viagens no tempo pode ser possível, assim como vemos no mundo de Doutor Estranho.
+      </footer>
+
+      <footer>
+      Hulk e Genética Avançada: O experimento de Bruce Banner nos mostra a manipulação genética como um caminho para melhorar as capacidades humanas. Tecnologias como CRISPR estão avançando rapidamente e podem, um dia, levar à criação de “super-humanos”.
+    </footer>
+
+    <footer>
+      Inteligência Artificial: De Ultron a Visão: A IA do futuro pode ser tanto uma ameaça quanto uma grande aliada, como vemos com Ultron e Visão. Vamos analisar os avanços atuais em IA e como eles podem transformar nossas vidas, para o bem ou para o mal.</footer>
+    <a href="https://www.google.com">Clique aqui para ir para o site do Projeto</a>
+
+    <img src="https://lojadosherois.com.br/cdn/shop/files/IMG_20230716_172916_800x.jpg?v=1740147107" alt="Imagem de fundo">
+    
+    <footer>
+      <h2>Entre em Contato</h2>
+      <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+          <label for="nome">Nome:</label><br>
+          <input type="text" id="nome" name="nome" required><br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="mensagem">Mensagem:</label><br>
+          <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Limpar">
+      </form>
+  </footer>
+
+  <footer>
+      <small>&copy; 2025 Emilly Ranny. Todos os direitos reservados.</small><br>
+      <a href="https://www.exemplo.com/contato" role="button">Fale Conosco</a>
+  </footer>
+
+
+</body>
+</html>
 
