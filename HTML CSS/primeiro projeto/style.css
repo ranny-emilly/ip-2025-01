@@ -14,10 +14,39 @@ body {
 }
 
 h1 {
+    display: inline;
+    margin-right: 10px;
     text-align: center;
     color: #fd4040;
     font-size: 3em;
     margin-bottom: 10px;
+}
+h1 + img {
+    vertical-align: middle;
+    height: 50px;
+}
+
+.spiderman {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+}
+
+.shera-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.shera-container img {
+    width: 300px;
+    height: auto;
+
+}
+.imagem {
+    margin-bottom: 20px;
 }
 
 #container {
@@ -39,7 +68,7 @@ h1 {
 h2 {
     padding-top: 2rem;
     color: #FF6A00;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 h2 a {
@@ -84,7 +113,7 @@ footer form textarea {
 footer form input[type="text"]:focus,
 footer form input[type="email"]:focus,
 footer form textarea:focus {
-    border-color: #FF6A00;
+    border-color: #ff6a00;
     outline: none;
 }
 
@@ -145,5 +174,3 @@ footer {
     text-align: center; /* Centraliza o conteúdo do footer */
     margin-top: 20px; /* Adiciona uma margem no topo do footer */
 }
-
-
