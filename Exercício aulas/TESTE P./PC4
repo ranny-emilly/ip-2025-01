@@ -1,0 +1,24 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var num int
+	fmt.Scan(&num)
+
+
+	var pi float64 = 0.0
+
+	for i := 0; i < num; i++ {
+		vf := 4.0 / float64(2*i+1)
+		if i%2 == 0 {
+			pi += vf
+		} else {
+			pi -= vf
+		}
+	}
+
+	fmt.Printf("%.6f\n", pi)
+}
